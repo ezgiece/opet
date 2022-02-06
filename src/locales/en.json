@@ -1,0 +1,178 @@
+{
+  "Dark_Mode": "Dark Mode",
+  "appComponents": {
+    "addNew": "Add New",
+    "search": "Search",
+    "edit": "Edit",
+    "delete": "Delete",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "itemWillBeDeleted": "will be deleted!",
+    "addList": "Add List",
+    "selectFromList": "Select From List"
+  },
+  "common": {
+    "KocDigital": "KocDigital",
+    "Platform360": "Platform360",
+    "addNew": "Add New",
+    "create": "Create",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "next": "Next",
+    "previous": "Previous",
+    "complete": "Complete",
+    "save": "Save",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "view": "View",
+    "search": "Search",
+    "select": "Select",
+    "fullscreen": "Fullscreen",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "clear": "Clear",
+    "multi": "Multi",
+    "itemsPerPage": "Items Per Page",
+    "filter": "Filter",
+    "hour":"Hour",
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "noDataAvailable": "No data available"
+  },
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "login": "Login",
+    "invalidUsernameOrPassword": "Invalid Username or Password!",
+    "loginSuccessful": "Login Successful!",
+    "oldPassword": "Old Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "passwordUpdateSuccessful": "Password update is successful! You can login with your new password.",
+    "updatePassword": "Update Password",
+    "passwordExpired": "Your password has expired. Please update it.",
+    "passwordNotChanged": "This password was created by the administrator. Please create a new password."
+  },
+  "user": {
+    "userManagement": "User Management",
+    "admin": "Admin",
+    "role":"Role",
+    "userUpdateSuccessful": "User update is successful."
+  },
+
+
+  "dashboard": {
+    "title": "Dashboard",
+    "period": "Period",
+    "numberOfVehicles": "Number of Vehicles",
+    "numberOfVehiclesEnteringTheStation": "Number of Vehicles Entering the Station",
+    "rate": "Rate (%)",
+    "Date": "Date",
+    "countOfVehicles":"Count of Vehicles",
+    "Total":"Total",
+    "Color": "Color",
+    "Brand": "Brand",
+    "Graphic": "Graphic",
+    "Damage": "Damage",
+    "Image": "Image",
+    "Detail": "Detail"
+  },
+  "header": {
+    "manageProfile": "Manage Your Profile",
+    "userManagement": "User Management",
+    "settings": "Settings",
+    "signOut": "Sign Out"
+  },
+  "sidebar": {
+    "dashboards": "Dashboards",
+    "reporting": {
+      "reports": "Reports",
+      "alarmReport": "Alarm Report",
+      "telemetryReport": "Telemetry Report",
+      "energyReport": "Energy Report",
+      "damageReport": "Damage Report"
+    },
+    "management": {
+      "console": "Management Console",
+      "assetManagement": "@:asset.asset Management",
+      "deviceManagement": "Device Management"
+    },
+    "ruleEngine": "Rule Engine Management",
+    "adminConsole": "Administrative Console"
+  },
+  "footer": {
+    "allRightsReserved": "All Rights Reserved.",
+    "copyrightText": "{year} @:common.Platform360 from @:common.KocDigital, @:footer.allRightsReserved"
+  },
+  "toasts": {
+    "successfullyCreated": "Successfully created.",
+    "successfullyUpdated": "Successfully updated.",
+    "successfullyDeleted": "Successfully deleted.",
+    "itemWillBeDeleted": "{name} will be deleted!",
+    "lookupListEmpty": "No elements in the lookup list!",
+    "lookupListDuplicate": "There is another record with the same name!",
+    "sensorMustBeSelected": "Sensor must be selected!"
+  },
+  "errors": {
+    "DayPeriodLimitExceeded": "Day Period Limit Exceeded",
+    "WeekPeriodLimitExceeded": "Week Period Limit Exceeded",
+    "MonthPeriodLimitExceeded": "Month Period Limit Exceeded",
+    "StartDateAndEndDateCannotBeNull": "Start Date and End Date Cannot Be Null"
+  },
+  "enums": {
+    "RelativeDateType": {
+      "LastDay": "Last Day",
+      "LastMinute": "Last Minute",
+      "LastHour": "Last Hour",
+      "LastWeek": "Last Week",
+      "LastMonth": "Last Month"
+    },
+    "RuleRelativeDateType": {
+      "LastDay": "Last Day",
+      "LastHour": "Last Hour",
+      "LastWeek": "Last Week",
+      "FixedTime": "Fixed Time"
+    }
+  },
+  "validationMessages": {
+    "requiredField": "Required Field",
+    "minChars": "Must be min {limit} chars",
+    "maxChars": "Must be max {limit} chars",
+    "mustBeNumber": "Must be a number",
+    "mustBeWholeNumber": "Must be a whole number",
+    "mustBeAlphanumeric": "Must be alphanumeric",
+    "mustBeBetween": "Value must be between {fromLimit} and {toLimit}",
+    "minValue": "Value must be larger than {limit}",
+    "minValueIncluded": "Value must be at least {limit}",
+    "maxValue": "Value must be smaller than {limit}",
+    "maxValueIncluded": "Value must be at most {limit}",
+    "minArrayLength": "List must have at least {limit} elements",
+    "maxArrayLength": "List must have at most {limit} elements",
+    "alreadyIncludes": "List already includes {value}",
+    "minMaxError": "Maximum value should be bigger than minimum value",
+    "optimumRangeError": "Optimum value should be between minimum and maximum values",
+    "dateMinMaxError": "Start date should be later than end date",
+    "regexMismatch": "Must be a valid {name}",
+    "regexNames": {
+      "Email Regex": "email",
+      "Phone Regex": "phone number"
+    },
+    "passwordConfirmation": "The password confirmation does not match.",
+    "invalidUsername": "Invalid username"
+  },
+  "errorCodes": {
+    "11000": "Password must contain at least 12 characters!",
+    "11001": "Password must contain at least one number!",
+    "11002": "Password must contain at least 1 uppercase character!",
+    "11003": "Password must contain at least 1 lowercase character!",
+    "11004": "Password must not contain characters like 'ABCDEFG', 'abcdefg', 'QWERTY', '1234567890' or '1111', 'aaaa'!",
+    "11005": "Password must not contain easly identifiable information like 'phone number', 'birth date', 'ID number2'",
+    "11006": "Password must not contain common words like 'names', 'brand names', 'words from dictionary' or word combinations",
+    "10106": "Old password and new password cannot be equal!"
+  }
+}

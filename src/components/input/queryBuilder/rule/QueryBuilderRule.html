@@ -1,0 +1,16 @@
+<div>
+    <v-row>
+        <v-col cols="2" sm="2" md="2">
+            <v-text-field v-model="dto.telemetryName" dense outlined disabled></v-text-field>
+        </v-col>
+        <v-col cols="2" sm="2" md="2">
+            <v-select v-model="selectedOperation" :items="operators" dense outlined></v-select>
+        </v-col>
+        <v-col cols="2" sm="2" md="2">
+            <v-text-field v-model="operationValue" dense outlined required :rules="[rules.required, rules.maxChars(operationValue, 100)]"></v-text-field>
+        </v-col>
+        <v-col cols="2" sm="2" md="2">
+            <v-btn @click="removeSelf()" color="error">{{$t('rule.createView.removeRule')}}</v-btn>
+        </v-col>
+    </v-row>
+</div>

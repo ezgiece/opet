@@ -1,0 +1,98 @@
+@import "../variables";
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+.v-data-table > .v-data-table__wrapper > table > thead > tr > td,
+.v-data-table > .v-data-table__wrapper > table > tfoot > tr > td {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: 1.14 !important;
+  letter-spacing: normal !important;
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > th,
+.v-data-table > .v-data-table__wrapper > table > thead > tr > th,
+.v-data-table > .v-data-table__wrapper > table > tfoot > tr > th {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: 1.19 !important;
+  height: 50px !important;
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td {
+  border-bottom: none !important;
+}
+
+.v-data-table table tr > td > .action-icon {
+  visibility: hidden !important;
+}
+
+.v-data-table table tr:hover > td > .action-icon {
+  visibility: visible !important;
+}
+
+.theme--dark.v-data-table > .v-data-table__wrapper > table > tbody > tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
+  background-color: #2c3239 !important;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.theme--light.v-data-table > .v-data-table__wrapper > table > tbody > tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
+  background-color: #bebebe !important;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.theme--dark.v-data-table > .v-data-table__wrapper > table > tbody > tr.deep-n {
+  background-color: #1d2229 !important;
+}
+
+.theme--light.v-data-table > .v-data-table__wrapper > table > tbody > tr.deep-n {
+  background-color: #f1f1f1 !important;
+}
+
+.theme--dark {
+
+  &.v-data-table {
+    background-color: var(--v-secondary-base)  !important;
+    color: var(--v-strange-base)  !important;
+
+    .v-data-table-header {
+      background-color: $dark-theme-header-color !important;
+    }
+
+    .v-data-footer {
+      color: $dark-theme-header-color !important;
+    }
+  }
+
+  .v-data-table {
+    background-color: var(--v-secondary-base);
+    color: var(--v-strange-base);
+
+    .v-data-table-header {
+      background-color: $dark-theme-header-color !important;
+    }
+
+    .v-data-footer {
+      color: $dark-theme-header-color !important;
+    }
+  }
+}
+
+.theme--light {
+  .v-data-table {
+    .v-data-table-header {
+      background-color: $light-theme-header-color !important;
+    }
+
+    & > .v-data-table__wrapper > table > thead > tr > th {
+      color: #57638e !important;
+    }
+  }
+}
+
+.v-data-table > .v-data-table__wrapper tbody tr.v-data-table__expanded__content{
+  box-shadow: none;
+}

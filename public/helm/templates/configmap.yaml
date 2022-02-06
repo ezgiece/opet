@@ -1,0 +1,23 @@
+{{ if and (hasKey .Values "app") (eq .Values.app.configType "FILE") -}}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config-{{ .Chart.Name }}
+data:
+  config.js: |-
+   const config = (() => {
+    return {
+                "VUE_APP_ENV": "kubernetes",
+                "VUE_APP_SUB_PATH": "ux",
+                "VUE_APP_ASSET_API_URL": "{{- .Values.apiUrls.assetapi | default "" -}}",
+                "VUE_APP_DASHBOARD_API_URL": "{{- .Values.apiUrls.dashboardapi | default "" -}}",
+                "VUE_APP_IDENTITY_API_URL": "{{- .Values.global.identityexternalsecureurl | default "" -}}",
+                "VUE_APP_USERS_API_URL": "{{- .Values.apiUrls.identityuserapi | default "" -}}",
+                "VUE_APP_POLICIES_API_URL": "{{- .Values.apiUrls.policyapi | default "" -}}",
+                "VUE_APP_SOLUTION_RELATION_API_URL": "{{- .Values.apiUrls.productapi | default "" -}}",
+                "VUE_APP_HISTORICAL_DATA_MANAGER_API_URL": "{{- .Values.apiUrls.datamanagerapi | default "" -}}",
+                "VUE_APP_RULE_LOG_API_URL": "{{- .Values.apiUrls.rulelogapi | default "" -}}",
+                "VUE_APP_SIGNALR_HUB_WIDGET_URL": "{{- .Values.apiUrls.signalr | default "" -}}?wid=",
+    };
+   })();
+{{ end -}}

@@ -1,0 +1,23 @@
+
+a.no-underline{
+    text-decoration: none;
+}
+.chart-box{
+    border: solid 1px #687dd5;
+    border-radius: 12px 12px 5px 5px;
+}
+
+.singleChart>.chart-box:nth-child(1) {
+    width: 1060px;
+  }
+  .doubleChart>.chart-box:nth-child(1) {
+    width: 530px;
+  }
+ @media screen and (max-width: 1360px) {
+    .singleChart>.chart-box:nth-child(1) {
+        width: 880px;
+      }
+      .doubleChart>.chart-box:nth-child(1) {
+        width: 440px;
+      }
+   }

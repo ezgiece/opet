@@ -1,0 +1,75 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "platform360ramclientv2.fullname" . }}
+  labels:
+    {{- include "platform360ramclientv2.labels" . | nindent 4 }}
+spec:
+  {{- if not .Values.autoscaling.enabled }}
+  replicas: {{ .Values.replicaCount }}
+  {{- end }}
+  selector:
+    matchLabels:
+      {{- include "platform360ramclientv2.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      {{- with .Values.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        {{- include "platform360ramclientv2.selectorLabels" . | nindent 8 }}
+    spec:
+      imagePullSecrets:
+        - name: {{ .Values.imagePullSecret }}
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: app
+              containerPort: 80
+              protocol: TCP
+          #livenessProbe:
+          #  httpGet:
+          #    path: /
+          #    port: app
+          #  initialDelaySeconds: 600
+          #  periodSeconds: 120
+          #  failureThreshold: 6
+          #readinessProbe:
+          #  httpGet:
+          #    path: /
+          #    port: app
+          #  initialDelaySeconds: 600
+          #  periodSeconds: 120
+          #  failureThreshold: 6
+          {{ if and (hasKey .Values "app") (eq .Values.app.configType "FILE") }}
+          volumeMounts:
+          - name: config-volume
+            mountPath: /usr/share/nginx/html/config.js
+            subPath: config.js
+          {{ end }}         
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+      {{ if and (hasKey .Values "app") (eq .Values.app.configType "FILE") }}  
+      volumes:
+      - name: config-volume
+        configMap:
+          items:
+          - key: config.js
+            path: config.js
+          name: app-config-{{ .Chart.Name }}
+      {{ end }}
+      {{- with .Values.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}

@@ -1,0 +1,9 @@
+helm upgrade -i ramclientux .\ -f .\values.yaml
+
+helm chart save . platform360.azurecr.io/helm/ramclient:2.0.0
+
+helm chart push platform360.azurecr.io/helm/ramclient:2.0.0
+
+helm package . -d .
+
+az acr helm push -n platform360 ./ramclient-ux-2.0.0.tgz --force

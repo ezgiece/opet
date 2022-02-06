@@ -1,0 +1,46 @@
+<v-app-bar app clipped-left>
+    <v-app-bar-nav-icon @click.stop="$emit('toggle-drawer')" v-if="!isLoginPage()" />
+    <router-link to="/">
+        <v-img link to="/" src="../../../images/white_opet_logo.png" max-height="64" max-width="120" v-if="!isLoginPage()"></v-img>
+    </router-link>
+    <v-select style="right:0px;" v-model="selectedLang" :items="langs" label="language" dense outlined single-line
+        append-outer-icon="mdi-earth" class="language-select" @change="changeLang()" v-if="isLoginPage()">
+    </v-select>
+    <v-select v-model="selectedLang" :items="langs" label="language" dense outlined single-line
+        append-outer-icon="mdi-earth" class="language-select" @change="changeLang()" v-if="!isLoginPage()">
+    </v-select>
+
+    <v-avatar color="grey darken-4" v-if="!isLoginPage()">
+        <span class="white--text headline">KD</span>
+    </v-avatar>
+    <v-menu transition="slide-y-transition" bottom right content-class="user-menu" v-if="!isLoginPage()">
+        <template v-slot:activator="{ on }">
+            <v-btn icon color="ux-blue-grey header-user-info-area-btn" v-on="on">
+                <v-icon class="margin-right-0 font-size-28">mdi-menu-down</v-icon>
+            </v-btn>
+        </template>
+        <v-list>
+            <v-list-item>
+                <v-list-item-avatar>
+                    <v-img src="https://i4.hurimg.com/i/hurriyet/75/750x422/58553af70f25443b0c347aa1.jpg"></v-img>
+                </v-list-item-avatar>
+            </v-list-item>
+            <!-- <v-list-item>
+                <p class="width-100-perc text-align-center font-size-14 color-d3d5db margin-top-10">{{userName}}</p>
+            </v-list-item>
+            <v-list-item>
+                <v-btn to="/UpdatePassword" class="margin-20-27 color-57638E font-size-13 border-radius-16" outlined>
+                    {{$t("header.manageProfile")}}
+                </v-btn>
+            </v-list-item> -->
+            <!-- <v-list-item v-if="isAdmin==='true'" link to="/User/List" class="user-menu-link">
+                <v-icon class="margin-right-10">mdi-account-supervisor-circle</v-icon>{{$t("header.userManagement")}}
+            </v-list-item> -->
+            <v-list-item link to="/" class="user-menu-link">
+                <v-btn class="margin-10-10 color-57638E font-size-13" outlined @click="logOut">
+                    {{$t("header.signOut")}}
+                </v-btn>
+            </v-list-item>
+        </v-list>
+    </v-menu>
+</v-app-bar>

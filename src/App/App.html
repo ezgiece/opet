@@ -1,0 +1,13 @@
+<v-app id="inspire">
+    <div v-if="$store.state.loading">
+        <Loading />
+    </div>
+    <Header @toggle-drawer="$refs.drawer.drawer = !$refs.drawer.drawer" v-if="isLoggedIn() || isLoginPage()" />
+    <SideBar ref="drawer" v-if="isLoggedIn()" />
+    <v-main>
+        <v-container fluid>
+            <router-view :key="$route.fullPath"></router-view>
+        </v-container>
+    </v-main>
+    <Footer />
+</v-app>

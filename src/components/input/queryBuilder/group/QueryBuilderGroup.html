@@ -1,0 +1,25 @@
+<div class="group-builder">
+    <v-row>
+        <v-col cols="3" sm="3" md="3">
+            <v-select v-model="selectedOperation" :items="logicOperators" dense outlined></v-select>
+        </v-col>
+        <v-col cols="3" sm="3" md="3">
+            <v-select v-model="selectedTelemetry" :items="telemetryList" item-text="telemetryName" item-value="telemetryId" required dense outlined return-object></v-select>
+        </v-col>
+        <v-col cols="6" sm="6" md="6">
+            <v-btn @click="addGroup()" class="groupQueryButton" color="primary">{{$t('rule.createView.addGroup')}}</v-btn>
+            <v-btn @click="addRule()" class="groupQueryButton" :disabled="selectedTelemetry == null">{{$t('rule.createView.addRule')}}</v-btn>
+            <v-btn v-if="removable" @click="removeSelf()" class="groupQueryButton" color="error">{{$t('rule.createView.removeGroup')}}</v-btn>
+        </v-col>
+    </v-row>
+    <div style="margin-left: 30px;">
+        <div class="child-group-container" v-if="childGroups.length > 0">
+            <QueryBuilderGroup v-for="(group, index) in childGroups" :dto="group" :telemetry-list="telemetryList" :index="index" :ref="'groupComponent'+index" :key="index" @remove="removeGroup(index)" @updated="emitUpdate()"></QueryBuilderGroup>
+        </div>
+        <div class="rule-container">
+            <QueryBuilderRule v-for="(rule, index) in rules" :dto="rule" :index="index" :ref="'ruleComponent'+index" :key="index" @remove="removeRule(index)" @updated="emitUpdate()"></QueryBuilderRule>
+        </div>
+    </div>
+</div>
+
+

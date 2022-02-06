@@ -1,0 +1,173 @@
+{
+  "Dark_Mode": "Karanlık Mod",
+  "appComponents": {
+    "addNew": "Yeni Ekle",
+    "search": "Ara",
+    "edit": "Güncelle",
+    "delete": "Sil",
+    "ok": "Tamam",
+    "cancel": "İptal",
+    "itemWillBeDeleted": "silinecek!",
+    "addList": "Listeyi Ekle",
+    "selectFromList": "Listeden Seç"
+  },
+  "common": {
+    "KocDigital": "KoçDigital",
+    "Platform360": "Platform360",
+    "addNew": "Yeni Ekle",
+    "create": "Yarat",
+    "add": "Ekle",
+    "edit": "Güncelle",
+    "delete": "Sil",
+    "cancel": "İptal",
+    "next": "Sonraki",
+    "previous": "Önceki",
+    "complete": "Tamamla",
+    "save": "Kaydet",
+    "ok": "Tamam",
+    "yes": "Evet",
+    "no": "Hayır",
+    "view": "Göster",
+    "search": "Ara",
+    "select": "Seç",
+    "fullscreen": "Tam Ekran",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi",
+    "clear": "Temizle",
+    "multi": "Multi",
+    "itemsPerPage": "Sayfa / Kayıt",
+    "filter": "Filtre",
+    "hour":"Saat",
+    "day": "Gün",
+    "week": "Hafta",
+    "month": "Ay",
+    "noDataAvailable": "Data bulunamadı."
+  },
+  "login": {
+    "username": "Kullanıcı Adı",
+    "password": "Şifre",
+    "rememberMe": "Beni Hatırla",
+    "login": "Giriş",
+    "invalidUsernameOrPassword": "Kullanıcı Adı Veya Şifre Hatalı!",
+    "loginSuccessful": "Giriş Başarılı!",
+    "oldPassword": "Eski Şifre",
+    "newPassword": "Yeni Şifre",
+    "confirmNewPassword": "Yeni Şifre (tekrar)",
+    "passwordUpdateSuccessful": "Şifre Yenileme Başarılı! Yeni şifrenizle giriş yapabilirsiniz.",
+    "updatePassword": "Şifre Güncelle",
+    "passwordExpired": "Şifrenizin süresi doldu. Lütfen güncelleyin.",
+    "passwordNotChanged": "Bu şifre yönetici tarafından oluşturulmuştur. Lütfen yeni bir şifre oluşturun."
+  },
+  "user": {
+    "userManagement": "Kullanıcı Yönetimi",
+    "admin": "Admin",
+    "role":"Rol",
+    "userUpdateSuccessful": "Kullanıcı güncelleme başarılı."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "period": "Dönem",
+    "numberOfVehicles": "Yoldan Geçen Araç",
+    "numberOfVehiclesEnteringTheStation": "İstasyona Giren Araç",
+    "rate": "Oran (%)",
+    "Date": "Tarih",
+    "countOfVehicles":"Araç Sayısı",
+    "Total":"Toplam Araç",
+    "Graphic": "Grafik",
+    "Image": "Görüntü",
+    "Detail": "Detay"
+  },
+  "header": {
+    "manageProfile": "Profili Düzenle",
+    "userManagement": "Kullanıcı Yönetimi",
+    "settings": "Ayarlar",
+    "signOut": "Oturumu Kapat"
+  },
+  "sidebar": {
+    "dashboards": "Kontrol Panelleri",
+    "reporting": {
+      "reports": "Raporlama",
+      "alarmReport": "Alarm Raporu",
+      "telemetryReport": "Telemetri Raporu",
+      "energyReport": "Enerji Raporu",
+      "damageReport": "Hasar Raporu"
+    },
+    "management": {
+      "console": "Yönetim Konsolu",
+      "assetManagement": "Varlık Yönetimi",
+      "deviceManagement": "Cihaz Yönetimi"
+    },
+    "ruleEngine": "Kural Motoru Yönetimi",
+    "adminConsole": "Yönetici Paneli"
+  },
+  "footer": {
+    "allRightsReserved": "Tüm Hakları Saklıdır.",
+    "copyrightText": "{year} @:common.Platform360, @:common.KocDigital. @:footer.allRightsReserved"
+  },
+  "toasts": {
+    "successfullyCreated": "Yaratma başarılı.",
+    "successfullyUpdated": "Güncelleme başarılı.",
+    "successfullyDeleted": "Silme başarılı.",
+    "itemWillBeDeleted": "{name} silinecek!",
+    "lookupListEmpty": "Seçenek listesi boş!",
+    "lookupListDuplicate": "Aynı isimli başka bir kayıt mevcut!",
+    "sensorMustBeSelected": "Lütfen bir sensör seçiniz!"
+  },
+  "errors": {
+    "DayPeriodLimitExceeded": "Gün sınırını aştınız. Lütfen dönem seçiminizi değiştirin.",
+    "WeekPeriodLimitExceeded": "Hafta sınırını aştınız. Lütfen dönem seçiminizi değiştirin.",
+    "MonthPeriodLimitExceeded": "Ay sınırını aştınız. Lütfen dönem seçiminizi değiştirin.",
+    "StartDateAndEndDateCannotBeNull": "Başlangıç ve bitiş tarihleri boş olamaz."
+  },
+  "enums": {
+    "RelativeDateType": {
+      "LastDay": "Son Bir Gün",
+      "LastMinute": "Son Bir Dakika",
+      "LastHour": "Son Bir Saat",
+      "LastWeek": "Son Bir Hafta",
+      "LastMonth": "Son Bir Ay"
+    },
+    "RuleRelativeDateType": {
+      "LastDay": "Son Bir Gün",
+      "LastHour": "Son Bir Saat",
+      "LastWeek": "Son Bir Hafta",
+      "FixedTime": "Belirli Süre"
+    }
+  },
+  "validationMessages": {
+    "requiredField": "Gerekli alan",
+    "minChars": "En az {limit} karakter uzunluğunda olmalı",
+    "maxChars": "En fazla {limit} karakter uzunluğunda olmalı",
+    "mustBeNumber": "Bir sayı giriniz",
+    "mustBeWholeNumber": "Bir tamsayı giriniz",
+    "mustBeAlphanumeric": "Alfanümerik olmalı",
+    "mustBeBetween": "Değer {fromLimit} ile {toLimit} arasında olmalı",
+    "minValue": "{limit} değerinden büyük olmalı",
+    "minValueIncluded": "Değer en az {limit} olmalı",
+    "maxValue": "{limit} değerinden küçük olmalı",
+    "maxValueIncluded": "Değer en fazla {limit} olmalı",
+    "minArrayLength": "Listede en az {limit} eleman olabilir",
+    "maxArrayLength": "Listede en çok {limit} eleman olabilir",
+    "alreadyIncludes": "Listede halihazırda {value} var",
+    "minMaxError": "Maksimum değer minimum değerden büyük olmalı",
+    "optimumRangeError": "Optimum değer minimum ve maksimum değerlerinin arasında olmalı",
+    "dateMinMaxError": "Başlangıç tarihi bitiş tarihinden erken olmalı",
+    "regexMismatch": "Geçerli bir {name} giriniz",
+    "regexNames": {
+      "Email Regex": "e-posta",
+      "Phone Regex": "telefon numarası"
+    },
+    "passwordConfirmation": "Şifreler eşleşmiyor.",
+    "invalidUsername": "Geçersiz kullanıcı adı"
+  },
+  "errorCodes": {
+    "11000": "Şifre en az 12 karakter uzunluğunda olmalıdır!",
+    "11001": "Şifre en az 1 rakam içermelidir!",
+    "11002": "Şifre en az 1 büyük harf içermelidir!",
+    "11003": "Şifre en az 1 küçük harf içermelidir!",
+    "11004": "Şifre 'ABCDEFG', 'abcdefg', 'QWERTY', '1234567890' or '1111', 'aaaa' gibi ifadeler içermemelidir!",
+    "11005": "Şifre  'telefon numarası', 'doğum tarihi', 'ID numarası' gibi kolay saptanabilen bilgileri içermemelidir!",
+    "11006": "Şifre genellikle kullanılan 'isim', 'marka isimleri', 'sözlükten kelimeler' ya da 'kelime kombinasyonları' içermemelidir.",
+    "10106": "Yeni şifre eski şifre ile aynı olamaz!"
+  }
+}

@@ -1,0 +1,138 @@
+@import "src/sass/variables";
+@import "data-table";
+@import "stepper";
+@import "reporting";
+
+.theme-drawer {
+  padding: 0 !important;
+
+  .theme-nav-list {
+    padding: 0;
+
+    .theme-list-group {
+      align-items: center !important;
+      justify-content: start !important;
+      min-height: inherit;
+      padding-right: 0;
+
+      .v-list-item__icon {
+        margin-left: 0;
+        margin-right: 0;
+
+        &:last-child {
+          min-width: 0;
+        }
+      }
+
+      .theme-menu-list-title {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+      }
+    }
+
+    .theme-list-item {
+      align-items: center !important;
+      justify-content: start !important;
+      min-height: inherit;
+
+      .v-list-item__icon {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .theme-menu-list-title {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+      }
+    }
+  }
+}
+
+.v-navigation-drawer--mini-variant.theme-drawer {
+  .theme-list-group {
+    margin-left: -12px !important;
+  }
+}
+
+.sf-page-app {
+  .v-application--wrap {
+    min-height: calc(100vh - 64px);
+  }
+}
+
+.theme-appbar {
+  padding: 20px;
+
+  .v-toolbar__content {
+    padding: 0;
+    height: 24px !important;
+  }
+
+  .appbar-logo {
+    height: 45px;
+    width: auto;
+    margin-left: 20px;
+  }
+}
+
+.theme--light {
+  &.v-application {
+    background-color: var(--v-accent-base) !important;
+  }
+}
+
+.container {
+  padding: 18px !important;
+}
+
+.view-bar-button {
+  color: white !important;
+
+  &.filter {
+    max-width: 140px !important;
+    height: 56px !important;
+    min-width: 80% !important;;
+  }
+}
+
+.primary-border {
+  fieldset {
+    border-color: var(--v-primary-base) !important;
+  }
+}
+
+.back-nav {
+  cursor: pointer !important;
+  color: var(--v-primary-base) !important;
+}
+
+
+.v-snack__wrapper {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.app-alert {
+  background-color: transparent !important;
+  padding: 0 !important;
+
+}
+
+.none-border-panel, .none-border-panel:before, .none-border-panel:after {
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none;
+  border-radius: 0;
+
+  > *, & *, * {
+    border: none !important;
+    background-color: transparent !important;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+
+.border-card-body {
+  border-top: solid 1px var(--v-accent-base);
+  border-bottom: solid 1px var(--v-accent-base);
+}

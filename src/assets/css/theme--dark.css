@@ -1,0 +1,1716 @@
+.v-application.theme--dark .loading {
+    height: 100%;
+    position: absolute;
+    z-index: 1035;
+    width: 100%;
+    text-align: center;
+    padding-top: 23%;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    
+}
+
+.v-application.theme--dark {
+    background-color: #13171c;
+   
+}
+
+.v-application.theme--dark .v-app-bar.v-toolbar.v-sheet {
+    background-color: #1f252c;
+    box-shadow: none;
+}
+
+.v-application.theme--dark .v-navigation-drawer {
+    background-color: #1f262f;
+    box-shadow: none;
+    width: 336px !important;
+    border-bottom-right-radius: 75px;
+    padding-right: 20px;
+}
+
+.v-application.theme--dark .v-navigation-drawer:not(.v-navigation-drawer--floating) .v-navigation-drawer__border {
+    background-color: transparent;
+}
+
+.v-application.theme--dark .v-navigation-drawer__content .v-list-item__title {
+    color: #d3d5db !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    
+}
+
+.v-application.theme--dark .v-navigation-drawer__content .v-list-item__title .v-icon {
+    font-size: 22px !important;
+    margin-right: 28px;
+    margin-top: -1px;
+
+}
+
+.v-application.theme--dark .v-icon {
+    color: #57638E !important;
+}
+
+.v-application.theme--dark .v-list .v-list-group__header.v-list-item--active.v-list-item--link {
+    background: transparent;
+    overflow: hidden;
+}
+
+.v-application.theme--dark .v-list .v-list-item--link.v-list-item--active {
+    background-color: #13171c;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    overflow: hidden;
+}
+
+.v-application.theme--dark .v-toolbar__content>.v-btn.v-btn--icon:first-child,
+.v-application.theme--dark .v-toolbar__extension>.v-btn.v-btn--icon:first-child {
+    margin-left: 20px;
+    margin-right: 15px;
+    
+}
+
+.v-application.theme--dark .v-avatar.grey.darken-4 {
+    background-color: #57638e !important;
+    border-color: #57638e !important;
+    width: 30px !important;
+    min-width: 30px !important;
+    height: 30px !important;
+    border-radius: 30px !important;
+}
+
+.v-application.theme--dark .white--text {
+    color: #181d23 !important;
+}
+
+.v-application.theme--dark .headline {
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.v-application.theme--dark .v-list-item--link::before {
+    background-color: transparent !important;
+}
+
+.v-application.theme--dark .v-list-item--dense,
+.v-application.theme--dark .v-list--dense .v-list-item {
+    min-height: 45px;
+    margin-top: 20px
+}
+
+.v-application.theme--dark .v-navigation-drawer .v-list {
+    height: 45px;
+    padding: 0;
+    
+}
+
+.v-application.theme--dark .v-list-item {
+    padding: 0;
+}
+
+.v-application.theme--dark .v-list-item__action {
+    margin: 0;
+}
+
+.v-application.theme--dark .v-list-item__action {
+    margin-left: 12px;
+    margin-right: 12px !important;
+}
+
+.v-application.theme--dark .v-list-item__action i {
+    font-size: 16px !important;
+}
+
+.v-application.theme--dark .v-card {
+    background-color: #242c38 !important;
+    border: 0 !important;
+    color: #94969b !important;
+    border-radius: 5px !important;
+    box-shadow: none;
+    padding: 15px 30px 15px 30px;
+}
+
+.v-application.theme--dark .v-dialog .v-card {
+    padding: 0;
+}
+
+.v-application.theme--dark .quick-links .box {
+    background-color: #27303c !important;
+    border: 1px solid #57638e !important;
+    border-radius: 5px !important;
+    padding: 42px 0 46px 0;
+    height: 100%;
+}
+
+.v-application.theme--dark .quick-links>.col :hover {
+    background-color: #2D3745 !important;
+}
+
+.v-application.theme--dark .quick-links .box .v-icon {
+    font-size: 50px;
+}
+
+.v-application.theme--dark .quick-links .box .spacer {
+    margin: 3px 0 4px 0;
+}
+
+.v-application.theme--dark .quick-links .box span {
+    padding-top: 10px;
+    font-size: 13px;
+    color: #9ca8d6;
+    line-height: 1.15;
+}
+
+.v-application.theme--dark .favorite-dashboards .v-card__actions {
+    background-color: #1F252C;
+}
+
+.v-application.theme--dark .favorite-dashboards .v-card__title {
+    color: #94969b;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.v-application.theme--dark .v-subheader {
+    font-weight: 300;
+    padding: 0;
+    margin-bottom: 15px;
+    text-indent: 15px;
+}
+
+.v-application.theme--dark .v-subheader h2 {
+   font-weight: 400 !important;
+}
+
+.v-application.theme--dark .v-stepper__wrapper .v-card {
+    min-height: 300px;
+    padding: 15px;
+}
+
+.v-application.theme--dark .h0 {
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    font-weight: 500;
+}
+
+.v-application.theme--dark .logout-btn {
+    position: absolute;
+    right: 15px;
+}
+
+.v-application.theme--dark .v-avatar {
+    position: absolute;
+    right: 35px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.v-application.theme--dark .v-treeview-node .accent--text {
+    color: #9ca8d6 !important;
+    caret-color: #9ca8d6 !important;
+}
+
+.v-application.theme--dark .v-data-table__wrapper tr .text-start .v-btn.v-btn--flat {
+    min-width: 30px !important;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.v-application.theme--dark .tree-node>.tree-content {
+    background-color: transparent !important;
+}
+
+.v-application.theme--dark .tree-anchor {
+    color: #ccc !important;
+}
+
+.v-application.theme--dark .tree-checkbox {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.v-application.theme--dark .tree-checkbox.checked:after {
+    left: 7px !important;
+    top: 1px !important;
+    height: 10px !important;
+    width: 5px !important;
+}
+
+.v-application.theme--dark .tree-arrow {
+    display: none;
+}
+
+.v-application.theme--dark .tree-content {
+    padding-left: 0 !important;
+}
+
+.v-application.theme--dark .v-input--selection-controls {
+    margin-top: 5px !important;
+    padding-top: 5px !important;
+}
+
+.v-application.theme--dark .v-btn.active {
+    background-color: #4F4F4F;
+    opacity: 1 !important;
+}
+
+.v-application.theme--dark .v-input--selection-controls:not(.v-input--hide-details) .v-input__slot {
+    margin-bottom: 5px;
+}
+
+.v-application.theme--dark .back-btn {
+    position: fixed;
+    right: 15px;
+    top: 85px;
+    background-color: #4F4F4F;
+}
+
+.v-application.theme--dark .v-treeview {
+    border: 1px solid #3a475a;
+    border-radius: 5px;
+    min-height: 57px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.v-application.theme--dark .v-badge {
+    background-color: #212121 !important;
+    border-color: #212121 !important;
+    height: 48px;
+    min-width: 48px;
+    width: 48px;
+    align-items: center;
+    border-radius: 50%;
+    vertical-align: middle;
+    justify-content: center;
+    display: inline-flex;
+    line-height: normal;
+}
+
+.v-application.theme--dark .v-badge .v-badge__badge {
+    top: 0 !important;
+}
+
+.v-application.theme--dark .badge-btn {
+    position: absolute;
+    right: 185px;
+    background: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    height: 48px !important;
+    min-width: 48px !important;
+    width: 48px !important;
+    border-radius: 50% !important;
+}
+
+.v-application.theme--dark .badge-btn:hover {
+    background: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.v-application.theme--dark .v-data-table__wrapper .text-start .v-btn:before {
+    background-color: transparent;
+}
+
+.v-application.theme--dark .ux-blue-grey--text.text--darken-1 {
+    color: #57638E !important;
+    caret-color: #57638E !important;
+}
+
+.v-application.theme--dark .ux-blue-grey--text .v-icon {
+    margin-right: 10px;
+}
+
+.v-application.theme--dark .footer {
+    z-index: 4;
+    background-color: transparent !important;
+}
+
+.v-application.theme--dark .footer span {
+    font-size: 10px;
+    position: absolute;
+    color: #494d52;
+    bottom: 15px;
+    right: 15px;
+}
+
+.v-application.theme--dark .v-list-group .v-list-group__header .v-list-item__icon.v-list-group__header__append-icon {
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+    position: absolute;
+}
+
+.v-application.theme--dark .v-list-group__items .v-list-item--link {
+    margin-top: 10px !important;
+}
+
+.v-application.theme--dark .v-list-group__items .v-list-item--link .v-list-item__title {
+    color: #d3d5db !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    padding-left: 72px;
+}
+
+.v-application.theme--dark .v-list-item__action:last-of-type:not(:only-child),
+.v-application.theme--dark .v-list-item__avatar:last-of-type:not(:only-child),
+.v-application.theme--dark .v-list-item__icon:last-of-type:not(:only-child) {
+    margin-left: 10px !important;
+}
+
+.v-application.theme--dark .text--header-user-info-area-btn {
+    position: absolute;
+    right: 10px;
+}
+
+.v-application.theme--dark .user-menu .v-list {
+    width: 254px;
+    background: #1F252C;
+    color: #d3d5db;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 5px;
+    border: 1px solid #3A475A;
+    padding-bottom: 0 !important;
+}
+
+.v-application.theme--dark .user-menu {
+    top: 65px !important;
+}
+
+.v-application.theme--dark .user-menu .v-list .v-list-item__title {
+    float: left !important;
+    width: 254px !important;
+    color: #d3d5db !important;
+}
+
+.v-application.theme--dark .user-menu .v-image {
+    width: 65px !important;
+    height: 65px !important;
+    border-radius: 65px !important;
+    margin: 0 auto;
+}
+
+.v-application.theme--dark .user-menu .v-list-item {
+    min-height: 0 !important
+}
+
+.v-application.theme--dark .user-menu p {
+    margin-bottom: 0 !important;
+}
+
+.v-application.theme--dark .user-menu .user-menu-link {
+    border-top: 1px solid #3a475a;
+    color: #d3d5db;
+    background-color: transparent !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    padding: 10px 10px 10px 20px;
+}
+
+.v-application.theme--dark .user-menu .v-avatar.v-list-item__avatar {
+    height: 65px !important;
+    min-width: 65px !important;
+    width: 65px !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    right: unset !important;
+}
+
+.v-application.theme--dark .primary--text.language-select,
+.v-application.theme--dark .language-select {
+    max-width: 100px;
+    font-size: 13px !important;
+    color: #57638e !important;
+    caret-color: #57638e !important;
+    border-color: #57638e !important;
+    border-radius: 16px;
+    right: 85px;
+    position: absolute;
+}
+
+.v-application.theme--dark .language-select .v-input__control {
+    height: 30px !important;
+}
+
+.v-application.theme--dark .language-select .v-input__control .v-input__slot {
+    min-height: 30px !important;
+    height: 30px !important;
+    padding: 0 6px !important;
+}
+
+.v-application.theme--dark .language-select .v-input__control .v-input__slot .v-label {
+    font-size: 13px;
+    font-weight: normal;
+    top: 5px;
+    left: 28px !important;
+    color: #57638e !important;
+}
+
+.v-application.theme--dark .language-select .v-select__selection--comma {
+    color: #57638e !important;
+    padding: 0 10px 0 27px;
+}
+
+.v-application.theme--dark .language-select .v-input__control .v-input__slot .v-label.v-label--active {
+    left: 7px !important;
+    top: 8px !important;
+}
+
+.v-application.theme--dark .language-select .v-input__append-outer {
+    position: absolute;
+    margin: 3px 0px 0 6px !important;
+}
+
+.v-application.theme--dark .language-select .v-input__control .v-input__slot .v-input__append-inner {
+    margin: 3px 0 0 0 !important;
+}
+
+.v-application.theme--dark .app-menu {
+    width: 254px;
+}
+
+.v-application.theme--dark .app-menu .v-image {
+    margin: 0 auto;
+    width: 56px;
+    max-width: 56px !important;
+    position: relative;
+}
+
+.v-application.theme--dark .v-content__wrap {
+    z-index: 5;
+}
+
+.v-application.theme--dark .app-menu .v-btn.v-size--default {
+    width: 75px;
+    overflow: hidden;
+    border: 0;
+}
+
+.v-application.theme--dark .app-menu .v-btn__content {
+    width: 100%;
+}
+
+.v-application.theme--dark .app-menu .v-list-item {
+    width: 254px;
+    background: #1F252C;
+    border-radius: 5px;
+    font-size: 13px;
+    border: 1px solid #3A475A;
+    padding-bottom: 0 !important;
+    color: #94969b !important;
+}
+
+.v-application.theme--dark .app-btn {
+    position: absolute;
+    right: 235px;
+}
+
+.v-application.theme--dark h2 {
+    color: #687dd5;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    margin-left: 27px;
+    margin-top: 25px;
+}
+
+.v-application.theme--dark h2 i {
+    margin-right: 10px;
+}
+
+.v-application.theme--dark h2 .v-btn {
+    background-color: #4788f4 !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.36 !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    float: right;
+    height: 45px !important;
+    margin-top: -10px;
+    box-shadow: none !important;
+}
+
+.v-application.theme--dark .v-tabs {
+    float: left;
+}
+
+.v-application.theme--dark .v-tabs>.v-tabs-bar {
+    background: transparent !important;
+}
+
+.v-application.theme--dark .v-slide-group__content {
+    border-bottom: 2px solid #3a475a;
+}
+
+.v-application.theme--dark .v-tabs>.v-tabs-bar .v-tab {
+    color: #d3d5db !important;
+    caret-color: #9ca8d6 !important;
+    padding: 0 28px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    opacity: 0.4;
+}
+
+.v-application.theme--dark .v-tabs>.v-tabs-bar .v-tab.v-tab--active {
+    opacity: 1;
+}
+
+.v-tabs>.v-tabs-bar .v-tabs-slider {
+    background-color: #9ca8d6 !important;
+}
+
+.v-application.theme--dark .v-data-table {
+    background-color: #242C38;
+    color: #d3d5db;
+    box-shadow: none !important;
+}
+
+.v-application.theme--dark .v-data-table .v-data-footer {
+    border-top: thin solid rgba(255, 255, 255, 0.12);
+    border-bottom: thin solid rgba(255, 255, 255, 0.12);
+}
+
+.v-application.theme--dark .v-data-table-header {
+    background-color: #3A475A;
+}
+
+.v-application.theme--dark .v-data-table__wrapper {
+    border-radius: 3px;
+}
+
+.v-application.theme--dark .v-data-table header .v-toolbar__content .v-btn.primary {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 1px;
+    background-color: #13171C !important;
+    border: 1px solid #4788f4 !important;
+    color: #4788f4 !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.36 !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    float: right;
+    height: 45px !important;
+}
+
+.v-application.theme--dark .v-sheet.theme--dark.v-toolbar.v-toolbar--flat {
+    background-color: #13171C !important;
+}
+
+.v-application.theme--dark .v-toolbar__content .theme--dark.v-text-field>.v-input__control>.v-input__slot:before {
+    border: 0 !important;
+}
+
+.v-application.theme--dark .v-data-table header .v-toolbar__content {
+    padding: 4px 0px;
+}
+
+.v-application.theme--dark .v-tabs-slider-wrapper {
+    top: 46px;
+}
+
+.v-application.theme--dark .v-data-footer {
+    color: #6d7788;
+}
+
+.v-application.theme--dark .v-data-table__wrapper tr:hover {
+    background-color: #2C3239 !important;
+}
+
+.v-application.theme--dark .v-data-table__wrapper .text-start .v-icon {
+    font-size: 22px !important;
+}
+
+.v-application.theme--dark .v-data-table__wrapper tr td:last-child .v-btn {
+    opacity: 0;
+}
+
+.v-application.theme--dark .v-data-table__wrapper tr:hover td:last-child .v-btn {
+    opacity: 1;
+    
+    
+}
+
+.v-application.theme--dark .v-data-footer .v-input__control {
+    background-color: #1F252C;
+    border: 1px solid #57638e;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+.v-application.theme--dark .v-data-footer .theme--dark.v-text-field>.v-input__control>.v-input__slot:before {
+    border: 0 !important;
+}
+
+.v-application.theme--dark .v-data-footer__select .v-select__selections .v-select__selection--comma {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #6d7788;
+}
+
+.v-application.theme--dark .v-input--selection-controls__ripple.primary--text {
+    color: #57638e !important;
+    caret-color: #57638e !important;
+}
+
+.v-application.theme--dark .v-data-table tbody tr.v-data-table__selected {
+    background: #2C3239;
+}
+
+.v-application.theme--dark .v-stepper {
+    background: #13171C;
+    box-shadow: none;
+}
+
+.v-application.theme--dark .v-stepper__header {
+    box-shadow: none;
+}
+
+.v-application.theme--dark .v-stepper__content {
+    padding: 0;
+}
+
+.v-application.theme--dark .v-stepper__step__step {
+    height: 33px;
+    min-width: 33px;
+    width: 33px;
+}
+
+.v-application.theme--dark .v-stepper__step__step.primary {
+    background-color: #57638E !important;
+    border: 2px solid #3a475a !important;
+    font-size: 18px;
+    color: #d3d5db;
+}
+
+.v-application.theme--dark .v-stepper__step.v-stepper__step--complete .v-stepper__step__step.primary {
+    background-color: #64CBAF !important;
+    border: 2px solid #64CBAF !important;
+    font-size: 18px;
+    color: #d3d5db;
+}
+
+.v-application.theme--dark .v-stepper__step.v-stepper__step--inactive .v-stepper__step__step {
+    background-color: #13171C !important;
+    border: 2px solid #3a475a !important;
+    font-size: 18px;
+    color: #687dd5;
+}
+
+.v-application.theme--dark .v-data-footer__select .v-select {
+    margin: 13px 0 13px 34px;
+}
+
+.v-application.theme--dark .v-stepper__step__step .v-icon.v-icon {
+    color: #57638e;
+}
+
+.v-application.theme--dark .v-stepper .v-stepper__header .v-divider {
+    border-color: #3a475a;
+}
+
+.v-application.theme--dark .link-btn {
+    font-size: 14px !important;
+    color: #57638e !important;
+    text-transform: none !important;
+    margin-top: 22px;
+}
+
+.v-application.theme--dark .subtitle-2 {
+    color: #d3d5db;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+}
+
+.v-application.theme--dark .v-text-field>.v-input__control>.v-input__slot:after {
+    display: none;
+}
+
+.v-application.theme--dark .v-text-field>.v-input__control>.v-input__slot:before {
+    display: none;
+}
+
+.v-application.theme--dark .v-stepper .stepper-input.v-text-field>.v-input__control>.v-input__slot {
+    border: 1px solid #92969c;
+    height: 56px;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.v-application.theme--dark .v-stepper .stepper-input.v-text-field>.v-input__control>.v-input__slot .v-label {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300 !important;
+}
+
+.v-application.theme--dark .v-stepper .stepper-input.v-text-field>.v-input__control>.v-input__slot .v-label.v-label--active {
+    left: -2px !important;
+    top: 9px !important;
+    color: #57638e !important;
+}
+
+.v-application.theme--dark .v-stepper .stepper-input.v-text-field input {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300 !important;
+}
+
+.v-application.theme--dark .stepper-btn {
+    background-color: #57638e !important;
+    box-shadow: none !important;
+    padding: 13px 75px !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #d3d5db !important;
+    position: absolute;
+}
+
+.v-application.theme--dark .stepper-btn.next {
+    bottom: 15px;
+    right: 15px;
+}
+
+.v-application.theme--dark .stepper-btn.previous {
+    bottom: 15px;
+    right: 225px;
+    padding: 13px 30px !important;
+    background: transparent !important;
+    color: #57638e !important;
+}
+
+.v-application.theme--dark .stepper-btn.previous.last {
+    right: 265px;
+}
+
+.v-application.theme--dark h4 {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.v-application.theme--dark .primary.stepper-inside-btn {
+    background-color: #242C38 !important;
+    border: 1px solid #4788f4 !important;
+    color: #4788f4 !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.36 !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    float: right;
+    height: 45px !important;
+    box-shadow: none;
+    padding: 13px 48px;
+}
+
+.v-application.theme--dark .v-treeview-node__label {
+    font-size: 14px;
+    color: #d3d5db;
+    font-weight: 400;
+}
+
+.v-application.theme--dark .v-overlay .v-overlay__content .v-sheet.theme--dark.v-toolbar.v-toolbar--flat {
+    background-color: #242C38 !important;
+}
+
+.v-application.theme--dark .v-overlay .v-overlay__content {
+    width: 70%;
+}
+
+.v-application.theme--dark .v-overlay.v-overlay--active .v-overlay__scrim {
+    opacity: 0.8 !important;
+    background-color: #13171C !important;
+    border-color: #13171C !important;
+}
+
+.v-application.theme--dark .v-overlay .v-card .v-btn.v-btn--is-elevated {
+    background-color: #242C38 !important;
+    border-color: #242C38 !important;
+    height: 36px;
+    min-width: 35px;
+    padding: 0 !important;
+    z-index: 1;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    box-shadow: none !important;
+}
+
+.v-application.theme--dark .v-overlay .v-card .v-card__actions .v-btn.v-btn--is-elevated {
+    background-color: #242C38 !important;
+    border: 1px solid #4788f4 !important;
+    color: #4788f4 !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.36 !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    float: right;
+    height: 45px !important;
+    box-shadow: none;
+    padding: 13px 48px !important;
+    position: unset !important;
+    margin-top: 15px;
+}
+
+.v-application.theme--dark .v-overlay .v-card .v-card__actions .v-btn.v-btn--disabled {
+    text-align: center !important;
+    float: right;
+    height: 45px !important;
+    padding: 13px 48px !important;
+    position: unset !important;
+    margin-top: 15px;
+}
+
+.v-application.theme--dark .v-overlay .v-card .v-card__actions {
+    padding: 0 !important
+}
+
+.v-application.theme--dark .v-snack__wrapper.info {
+    background-color: #57638e !important;
+    border-color: #57638e !important;
+}
+
+.v-application.theme--dark .v-snack__wrapper.info .v-icon {
+    color: #d3d5db !important;
+}
+
+.v-application .v-snack__wrapper.info span {
+    color: #d3d5db !important;
+}
+
+.v-application.theme--dark .v-menu__content.theme--dark.menuable__content__active .theme--dark.v-list {
+    background: #1F252C !important;
+}
+
+.v-application.theme--dark .v-menu__content.theme--dark.menuable__content__active .v-list-item--link.v-list-item--active {
+    background-color: #13171c;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.v-application.theme--dark .v-menu__content {
+    max-width: 100%;
+}
+
+.v-application.theme--dark .treeCheckBox {
+    margin-top: 0px;
+    max-height: 30px;
+}
+
+.v-application.theme--dark .treeview-edit .v-treeview-node__content {
+    margin-top: -6px;
+}
+
+.v-application.theme--dark .v-snack__wrapper.error {
+    background-color: #E24148 !important;
+    border-color: #E24148 !important;
+}
+
+.v-application.theme--dark .v-snack__wrapper.error .v-icon {
+    color: #d3d5db !important;
+}
+
+.v-application.theme--dark .v-snack__wrapper.error span {
+    color: #d3d5db !important;
+}
+
+.v-application.theme--dark .v-stepper .stepper-select.v-select>.v-input__control>.v-input__slot {
+    cursor: default;
+    border: 1px solid #92969c;
+    height: 56px;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.v-application.theme--dark .v-stepper .v-list-item {
+    text-align: center;
+}
+
+.v-application.theme--dark .v-stepper .stepper-input.v-text-field>.v-input__control>.v-input__slot .v-label.v-label--active,
+.v-application.theme--dark .v-stepper .stepper-select.v-text-field>.v-input__control>.v-input__slot>.v-select__slot .v-label.v-label--active {
+    left: -2px !important;
+    top: 9px !important;
+    color: #57638e !important;
+}
+
+.v-application.theme--dark .v-stepper .stepper-select.v-text-field>.v-input__control>.v-input__slot>.v-select__slot .v-select__selections {
+    font-weight: 500 !important;
+}
+
+.v-application.theme--dark .v-select.stepper-select .v-select__selection--comma {
+    font-weight: 200;
+}
+
+.v-application.theme--dark .v-menu__content .v-list-item__title {
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.v-application.theme--dark .stepper-select.v-text-field.v-select {
+    margin-top: -1px;
+}
+
+.v-application.theme--dark .col-table .v-sheet.theme--dark.v-toolbar.v-toolbar--flat {
+    background-color: #242C38 !important;
+}
+
+.v-application.theme--dark .v-treeview.treeview-edit.request-tree .v-input--selection-controls__input {
+    display: none;
+}
+
+.v-application.theme--dark .v-treeview.treeview-edit.request-tree .v-treeview-node__children .v-input--selection-controls__input {
+    display: block;
+}
+
+.v-application.theme--dark .v-treeview.treeview-edit .v-treeview-node__label {
+    overflow: visible!important;
+}
+
+.v-application.theme--dark .v-treeview.treeview-edit.request-tree label::before {
+    content: "+";
+    margin-right: 5px;
+    color: #57638e;
+}
+
+.v-application.theme--dark .v-treeview.treeview-edit.request-tree .v-treeview-node__children label::before {
+    content: "";
+}
+
+.v-application.theme--dark .v-btn.text-btn {
+    background: transparent !important;
+    color: #57638e !important;
+}
+
+.v-application.theme--dark .drop-list .v-list-item {
+    padding: 0 16px 0 16px;
+}
+
+.v-application.theme--dark .drop-list .v-list-item .v-list-item__title {
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.v-application.theme--dark .sort-list .v-icon {
+    color: #FFF !important;
+    font-size: 16px;
+    margin-right: 3px
+}
+
+.v-application.theme--dark .surface-border {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #3a475a;
+}
+
+.v-application.theme--dark .form-add-btn {
+    right: 45px;
+    background-color: #242C38 !important;
+    border: 1px solid #4788f4 !important;
+    color: #4788f4 !important;
+    padding: 10px 35px !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.36 !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    float: right;
+    height: 45px !important;
+}
+
+.v-application.theme--dark .remove-item-question {
+    font-weight: 500 !important;
+    padding: 10px;
+    margin: 10px;
+    color: #d3d5db;
+    background-color: #581a1a;
+}
+
+.v-application.theme--dark .formula-input {
+    min-height: 56px!important;
+    background-color: transparent;
+    border: 1px solid #3a475a;
+    border-radius: 5px;
+}
+
+.v-application.theme--dark .fade-enter-active,
+.v-application.theme--dark .fade-leave-active {
+    transition: opacity .5s;
+}
+
+.v-application.theme--dark .fade-enter,
+.v-application.theme--dark .fade-leave-to
+/* .fade-leave-active below version 2.1.8 */
+
+{
+    opacity: 0;
+}
+
+.v-application.theme--dark .exp-container {
+    position: relative;
+}
+
+.v-application.theme--dark .exp-container input {
+    padding-left: 30px;
+}
+
+.v-application.theme--dark .exp-container input.in-valid-char {
+    border-color: orange !important;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 8px orange !important;
+}
+
+.v-application.theme--dark .exp-container .exp-notification {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background-color: transparent;
+    top: 21px;
+    left: 12px;
+}
+
+.v-application.theme--dark .exp-container .exp-notification span {
+    display: none;
+    background-color: transparent;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.v-application.theme--dark .exp-container .exp-notification .ok {
+    background-color: #2b9223;
+}
+
+.v-application.theme--dark .exp-container .exp-notification .error {
+    background-color: #ba3636;
+}
+
+.v-application.theme--dark .exp-container.invalid input {
+    border-color: #ba3636;
+}
+
+.v-application.theme--dark .exp-container.invalid .exp-notification .ok {
+    display: none;
+}
+
+.v-application.theme--dark .exp-container.invalid .exp-notification .error {
+    display: block;
+}
+
+.v-application.theme--dark .exp-container.valid .exp-notification .ok {
+    display: block;
+}
+
+.exp-container.valid .exp-notification .error {
+    display: none;
+}
+
+.v-application.theme--dark .exp-container .exp-suggestions {
+    width: 100%;
+    background-color: #3a475a;
+    min-height: 50px;
+    border-radius: 3px;
+    max-height: 300px;
+    overflow-y: auto;
+    position: absolute;
+    display: none;
+    z-index: 1069;
+}
+
+.v-application.theme--dark .exp-container .exp-suggestions.up {
+    bottom: 36px;
+}
+
+.v-application.theme--dark .exp-container .exp-suggestions .exp-suggestion-item {
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 13px;
+    min-width: 400px;
+    background-color: #1F252C;
+    color: #FFF;
+}
+
+.v-application.theme--dark .exp-container .exp-suggestions .exp-suggestion-item.selected {
+    font-weight: bold;
+}
+
+.v-application.theme--dark .exp-container .exp-suggestions .exp-suggestion-item:hover {
+    background-color: #13171C;
+    color: white;
+}
+
+.v-application.theme--dark .nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.v-application.theme--dark .v-dialog {
+    border: 1px solid #3a475a;
+    background-color: #1F252C;
+}
+
+.v-application.theme--dark .v-dialog .v-btn--text {
+    color: #57638e !important;
+    caret-color: #57638e !important;
+}
+
+.v-application.theme--dark .v-dialog .v-btn--text.primary--text {
+    color: #9ca8d6 !important;
+    caret-color: #9ca8d6 !important;
+    background-color: #57638E;
+}
+
+.v-application.v-snack .info {
+    background-color: #57638e !important;
+    border-color: #2196f3 !important;
+}
+
+.v-application.theme--dark .create-new-btn-span {
+    color: #94969b;
+    font-weight: 300;
+    text-transform: none;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0 0 20px;
+}
+
+.v-application.theme--dark .vcard-form-btn {
+    background-color: #57638e !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    padding: 13px 50px !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #d3d5db !important;
+}
+
+.v-application.theme--dark .default-btn {
+    background-color: #4788f4 !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.36 !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    height: 45px !important;
+    box-shadow: none !important;
+}
+
+.v-application.theme--dark .widget-drawer-container {
+    height: 600px;
+    background-color: #242C38;
+}
+
+.v-application.theme--dark .widget-drawer-container .overlay {
+    background-color: #242C38;
+}
+
+.v-application.theme--dark .widget-drawer {
+    background-color: #1F252C;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 210px !important;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 8px;
+    padding-right: 0;
+}
+
+.v-application.theme--dark .v-list.v-select-list.v-sheet.theme--dark.theme--dark .v-icon.notranslate.mdi.mdi-checkbox-blank-outline.theme--dark,
+.v-application.theme--dark .v-list.v-select-list.v-sheet.theme--dark.theme--dark .v-icon.notranslate.mdi.mdi-checkbox-marked.theme--dark.primary--text {
+    font-size: 22px !important;
+}
+
+.v-application.theme--dark .row.remove-item-question .v-icon {
+    color: #d3d5db !important;
+}
+
+.v-application.theme--dark .v-stepper__step.v-stepper__step--error .v-stepper__step__step .v-icon {
+    font-size: 20px;
+}
+
+.v-application.theme--dark .widget-drawer .v-slide-group__prev,
+.v-application.theme--dark .widget-drawer .v-slide-group__next {
+    display: none !important;
+}
+
+.v-application.theme--dark .widget-drawer .v-tabs>.v-tabs-bar .v-tab {
+    color: #d3d5db !important;
+    caret-color: #9ca8d6 !important;
+    padding: 0 20px !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    text-transform: none;
+}
+
+.v-application.theme--dark .widget-drawer .row .box {
+    background-color: #27303c !important;
+    border: 1px solid #57638e !important;
+    border-radius: 5px !important;
+    padding: 7px;
+    height: 82px;
+}
+
+.v-application.theme--dark .widget-drawer .row .box .v-icon {
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.v-application.theme--dark .widget-drawer .row .box span {
+    font-size: 12px;
+    color: #9ca8d6;
+    line-height: 13px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.v-application.theme--dark .widget-drawer .v-tabs-items {
+    padding: 15px;
+    background-color: #1F252C;
+}
+
+.v-application.theme--dark .v-btn.btn-dusk {
+    background-color: #57638e !important;
+    padding: 13px 70px 13px 71px;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.v-application.theme--dark .v-overlay__content .search_bar .v-input__control {
+    border: 1px solid #43425d !important;
+    height: 45px;
+    border-radius: 23px;
+    padding: 5px 32px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.v-application.theme--dark .widget-drawer-container .v-overlay {
+    display: none !important;
+}
+
+.v-application.theme--dark .vue-grid-layout .chart-item {
+    border-radius: 10px !important;
+    padding: 0 !important;
+    background-color: #414850 !important;
+    border: 0 !important;
+    box-shadow: none;
+    top: -9px;
+    left: -9px;
+}
+
+.vue-grid-item>.vue-resizable-handle {
+    bottom: 10px !important;
+    right: 10px !important;
+}
+
+.v-application.theme--dark .widget-item {
+    display: flex;
+    float: left;
+    background-color: #1f252c !important;
+    border: 1px solid #57638e !important;
+    border-radius: 10px !important;
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.v-application.theme--dark .widget-item .widget-preview-icon {
+    font-size: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.v-application.theme--dark .widget-item table {
+    margin: 0 auto !important;
+}
+
+.v-application.theme--dark .widget-drop-list {
+    float: left;
+    width: 98.6%;
+    min-height: 598px;
+    height: auto;
+    background-image: url('../images/widget-list-bg.png');
+    background-repeat: repeat;
+    margin-top: -82px;
+}
+
+.v-application.theme--dark .widget-drawer h2 {
+    color: #9ca8d6;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #13171c;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.v-application.theme--dark .widget-drawer h2 .v-icon {
+    color: #9ca8d6 !important;
+    margin-top: -2px
+}
+
+.v-application.theme--dark .widget-item .v-btn {
+    height: 24px;
+    min-width: 24px;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.v-application.theme--dark .widget-item .v-btn:nth-child(2) {
+    top: 40px;
+}
+
+.v-application.theme--dark .small-description {
+    color: #94969b;
+    font-size: 10px;
+}
+
+.v-application.theme--dark .v-dialog {
+    position: relative;
+}
+
+.v-application.theme--dark .v-dialog.dialogWidgetConfig {
+    background-color: #242C38 !important;
+}
+
+.v-application.theme--dark .v-dialog.dialogWidgetConfig>* {
+    width: auto !important;
+}
+
+.v-application.theme--dark .dialogWidgetConfig h3 {
+    margin-bottom: 0;
+    float: left;
+    margin-top: 28px;
+    font-weight: 400;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.v-application.theme--dark .dialogWidgetConfig .v-stepper {
+    background-color: #242C38 !important;
+    padding-top: 10px;
+}
+
+.v-application.theme--dark .dialogWidgetConfig .v-stepper__header {
+    border-bottom: 1px solid #3A475A;
+}
+
+.v-application.theme--dark .line {
+    width: 100%;
+    height: 1px;
+    background-color: #3A475A;
+}
+
+.v-application.theme--dark .gauge-default svg g circle:nth-child(1) {
+    stroke: #101215 !important;
+    fill: #2a3748 !important;
+}
+
+.v-application.theme--dark .gauge-default svg g circle:nth-child(2) {
+    stroke: #20262B !important;
+    fill: #101215 !important;
+}
+
+.v-application.theme--dark .gauge-default svg g text {
+    fill: #d3d5db !important;
+}
+
+.v-application.theme--dark .gauge-default svg g g circle {
+    stroke: #3F517C !important;
+    fill: #3F517C !important;
+}
+
+.v-application.theme--dark .gauge-dark-blue svg g circle:nth-child(1) {
+    stroke: #2A3748 !important;
+    fill: #2A3748 !important;
+}
+
+.v-application.theme--dark .gauge-dark-blue svg g circle:nth-child(2) {
+    stroke: #1F252C !important;
+    fill: #1F252C !important;
+}
+
+.v-application.theme--dark .gauge-dark-blue svg g text {
+    fill: #d3d5db !important;
+}
+
+.v-application.theme--dark .gauge-dark-blue svg g g circle {
+    stroke: #2A3748 !important;
+    fill: #2A3748 !important;
+}
+
+.v-application.theme--dark .gauge-dark-line svg g circle:nth-child(1) {
+    stroke: #101215 !important;
+    fill: #101215 !important;
+}
+
+.v-application.theme--dark .gauge-dark-line svg g circle:nth-child(2) {
+    stroke: #101215 !important;
+    fill: #101215 !important;
+}
+
+.v-application.theme--dark .gauge-dark-line svg g text {
+    fill: #d3d5db !important;
+}
+
+.v-application.theme--dark .gauge-dark-line svg g g circle {
+    stroke: #E24148 !important;
+    fill: #E24148 !important;
+}
+
+.v-application.theme--dark .LineChartRow {
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.v-application.theme--dark div.LineChartRow>div>div {
+    height: 100%;
+}
+
+.v-application.theme--dark div.LineChartRow>div>div>div {
+    position: absolute !important;
+}
+
+.v-application.theme--dark .line-default svg>rect {
+    stroke: #101215 !important;
+    stroke-width: 3px;
+    fill: #2a3748 !important;
+}
+
+.v-application.theme--dark .line-default svg g text {
+    fill: #d3d5db !important;
+}
+
+.v-application.theme--dark .line-default svg>g:last-of-type text {
+    fill: #2A3748 !important;
+}
+
+.v-application.theme--dark .line-default svg g:nth-child(2) g rect {
+    fill: #aaaaaa !important;
+}
+
+.v-application.theme--dark .line-dark-blue svg>rect {
+    fill: #2A3748 !important;
+}
+
+.v-application.theme--dark .line-dark-blue svg g text {
+    fill: #d3d5db !important;
+}
+
+.v-application.theme--dark .line-dark-blue svg>g:last-of-type text {
+    fill: #2A3748 !important;
+}
+
+.v-application.theme--dark .line-dark-blue svg g:nth-child(2) g rect {
+    fill: #aaaaaa !important;
+}
+
+.v-application.theme--dark .bar-default svg>rect {
+    stroke: #101215 !important;
+    stroke-width: 3px;
+    fill: #2a3748 !important;
+}
+
+.v-application.theme--dark .bar-default svg g text {
+    fill: #d3d5db !important;
+}
+
+.v-application.theme--dark .bar-dark-blue svg>rect {
+    fill: #2A3748 !important;
+}
+
+.v-application.theme--dark .bar-dark-blue svg g text {
+    fill: #d3d5db !important;
+}
+
+.v-application.theme--dark .primary.widget-add-new-btn {
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    top: 15px;
+    background-color: transparent !important;
+    border: 1px solid #4788f4 !important;
+    color: #4788f4 !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.36 !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    float: right;
+    height: 45px !important;
+}
+
+.v-application.theme--dark .v-color-picker__controls {
+    display: none;
+}
+
+.v-application.theme--dark .v-color-picker__swatches>div {
+    background-color: #22272D;
+}
+
+.v-application.theme--dark .choose-color-btn {
+    border: 1px solid rgba(255, 255, 255, 0.24) !important;
+    color: #FFF !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.36 !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    height: 56px !important;
+}
+
+.v-application.theme--dark .v-color-picker__swatches .v-icon {
+    color: #000 !important;
+}
+
+.v-application.theme--dark .choose-color-btn-small {
+    width: 40px;
+    opacity: 1 !important;
+}
+
+.v-application.theme--dark .simple-table {
+    border: 1px solid #3a475a;
+    padding-left: 5px;
+}
+
+.v-application.theme--dark .widget-form-tree {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.theme--dark.simple-table.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,
+.theme--dark.simple-table.v-data-table>.v-data-table__wrapper>table>thead>tr>td,
+.theme--dark.simple-table.v-data-table>.v-data-table__wrapper>table>tfoot>tr>td {
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+.v-application.theme--dark .simple-table .v-data-table__wrapper {
+    overflow-x: hidden;
+}
+
+.v-application.theme--dark .hide-root-selection .v-treeview-node__root .v-treeview-node__checkbox {
+    display: none;
+}
+
+.v-application.theme--dark .v-data-table {
+    float: left;
+    height: auto;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.v-application.theme--dark .v-data-table__wrapper {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.v-application.theme--dark .v-data-footer {
+    float: left;
+    width: 100%;
+}
+
+.v-application.theme--dark .v-data-table .v-toolbar__content .v-input {
+    border: 1px solid #43425d;
+    border-radius: 23px;
+    padding: 5px 32px;
+    margin-bottom: 16px;
+}
+
+.v-application.theme--dark .v-dialog {
+    overflow: hidden !important;
+}
+
+.v-application.theme--dark .v-dialog .v-card__text {
+    padding-top: 24px;
+}
+
+.v-application.theme--dark .v-treeview-node .primary--text {
+    color: #57638E !important;
+    caret-color: #57638E !important;
+}
+
+.v-application.theme--dark .dialogWidgetConfig .modal-close.indigo.darken-4 {
+    right: 0;
+    height: 25px;
+    min-width: 25px;
+    position: absolute;
+    z-index: 1;
+    background-color: transparent !important;
+    border: 0 !important;
+    box-shadow: none;
+}
+
+.v-application.theme--dark .dialogWidgetConfig .modal-close.indigo.darken-4 .v-icon.v-icon {
+    font-size: 18px;
+}
+
+.v-application.theme--dark .v-stepper__wrapper .v-card .v-input {
+    margin-bottom: 10px;
+}
+
+.v-application.theme--dark .widget-item .dataGridRow {
+    display: flex;
+    height: 100%;
+}
+
+.v-application.theme--dark .v-data-table.dataGridTable {
+    margin-top: 0;
+}
+
+.theme--dark.v-data-table.v-data-table--fixed-header thead th {
+    background: #2C3239;
+}
+
+.v-input--checkbox div.v-messages {
+    display: none;
+}

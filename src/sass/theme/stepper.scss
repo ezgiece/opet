@@ -1,0 +1,9 @@
+.theme--dark {
+  &.v-stepper {
+    background-color: transparent !important;
+  }
+}
+
+.v-stepper__content{
+  padding: 0 !important;
+}
